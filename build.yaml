@@ -1,0 +1,3 @@
+include:
+  - board: rpi_pico
+    shield: my_custom_pico_shield
