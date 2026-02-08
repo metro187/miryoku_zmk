@@ -1,2 +1,0 @@
-config SHIELD_VBONE_PICO_SHIELD
-    def_bool $(shields_list_contains,vbone_pico_shield)
