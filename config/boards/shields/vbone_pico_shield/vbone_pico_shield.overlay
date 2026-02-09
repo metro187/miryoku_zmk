@@ -38,11 +38,11 @@ kscan_left: kscan_left {
                     <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, 
                     <&gpio0 7 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, 
                     <&gpio0 8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        col-gpios = <&gpio0 0 (GPIO_ACTIVE_LOW | DRIVE_S8)>, 
-                    <&gpio0 1 (GPIO_ACTIVE_LOW | DRIVE_S8)>, 
-                    <&gpio0 2 (GPIO_ACTIVE_LOW | DRIVE_S8)>, 
-                    <&gpio0 3 (GPIO_ACTIVE_LOW | DRIVE_S8)>, 
-                    <&gpio0 4 (GPIO_ACTIVE_LOW | DRIVE_S8)>;
+        col-gpios = <&gpio0 0 (GPIO_ACTIVE_LOW)>, 
+                    <&gpio0 1 (GPIO_ACTIVE_LOW)>, 
+                    <&gpio0 2 (GPIO_ACTIVE_LOW)>, 
+                    <&gpio0 3 (GPIO_ACTIVE_LOW)>, 
+                    <&gpio0 4 (GPIO_ACTIVE_LOW)>;
     };
 
     kscan_right: kscan_right {
@@ -52,10 +52,10 @@ kscan_left: kscan_left {
                     <&gpio0 19 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, 
                     <&gpio0 18 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, 
                     <&gpio0 17 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        col-gpios = <&gpio0 28 (GPIO_ACTIVE_LOW | DRIVE_S8)>, 
-                    <&gpio0 27 (GPIO_ACTIVE_LOW | DRIVE_S8)>, 
-                    <&gpio0 26 (GPIO_ACTIVE_LOW | DRIVE_S8)>, 
-                    <&gpio0 22 (GPIO_ACTIVE_LOW | DRIVE_S8)>, 
-                    <&gpio0 21 (GPIO_ACTIVE_LOW | DRIVE_S8)>;
+        col-gpios = <&gpio0 28 (GPIO_ACTIVE_LOW)>, 
+                    <&gpio0 27 (GPIO_ACTIVE_LOW)>, 
+                    <&gpio0 26 (GPIO_ACTIVE_LOW)>, 
+                    <&gpio0 22 (GPIO_ACTIVE_LOW)>, 
+                    <&gpio0 21 (GPIO_ACTIVE_LOW)>;
     };
 };
