@@ -1,1 +1,11 @@
 #include "../miryoku/miryoku.dtsi"
+
+&mt {
+    tapping-term-ms = <280>;
+    quick-tap-ms = <175>; // Helps with double-tapping keys
+    flavor = "balanced";  // Helps prevent misfires during fast typing
+};
+
+&lt {
+    tapping-term-ms = <280>;
+};
