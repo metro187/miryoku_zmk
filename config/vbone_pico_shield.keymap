@@ -1,3 +1,4 @@
+#define MIRYOKU_KLUDGE_MOUSEMOVEUCH
 #include "../miryoku/miryoku.dtsi"
 
 &mt {
